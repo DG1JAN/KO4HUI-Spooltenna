@@ -1,0 +1,318 @@
+(footprint "BNC_MOLEX_73100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Dual front isolated BNC plug (https://www.winconn.com/wp-content/uploads/364A2595.pdf)")
+	(tags "Dual BNC Horizontal Isolated")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "74d41e20-5464-46f9-b738-ffa1bf826bee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BNC_MOLEX_73100"
+		(at 0 3.5 180)
+		(layer "F.Fab")
+		(uuid "75066bcc-d8bc-4e7a-adcb-4da1f12e6649")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f0a62bc-66f0-4b6d-9e03-9d1e1e0e9baf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af3d2787-da4d-488e-be9a-57d53d4df1fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "552b79a3-9a54-4eaf-ba93-25485b045b06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.825 -12.4)
+		(end -5.825 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87107801-f879-4149-a90b-969c2ebfecf7")
+	)
+	(fp_line
+		(start -5.825 -12.4)
+		(end 5.825 -12.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22a4f703-e377-4354-a6c7-06eb1792b67a")
+	)
+	(fp_line
+		(start -5.825 -4)
+		(end 5.825 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "598384bd-2615-4021-b7a6-83565987c28b")
+	)
+	(fp_line
+		(start -1.5 -4)
+		(end -1.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96834247-6df0-4b0a-9a1b-13045d1879d6")
+	)
+	(fp_line
+		(start -1.5 -1.75)
+		(end 1.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97f736f4-a9c6-421a-9b70-f3d588be2fe8")
+	)
+	(fp_line
+		(start 1.5 -1.75)
+		(end 1.5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa4d7520-67b5-4077-8740-1207b35ee9b8")
+	)
+	(fp_line
+		(start 5.825 -12.4)
+		(end 5.825 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "646c1de2-5bf4-4ea8-9f57-ddc63cfc6180")
+	)
+	(fp_line
+		(start -5.825 1.15)
+		(end -5.825 -27.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "352b9601-3764-4439-8a0d-bfcab2ea2d1a")
+	)
+	(fp_line
+		(start 5.825 -27.55)
+		(end -5.825 -27.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38198be4-25d8-4e56-9f11-cd4e12e01fd6")
+	)
+	(fp_line
+		(start 5.825 1.15)
+		(end -5.825 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc828710-c29e-4b0e-9c23-34fa9c50de2f")
+	)
+	(fp_line
+		(start 5.825 1.15)
+		(end 5.825 -27.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d6c5d2a-4651-4334-9ea3-8c9466256710")
+	)
+	(fp_line
+		(start -4.825 -26.55)
+		(end -4.825 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e52db340-908d-46f7-82ff-6b7e4c045594")
+	)
+	(fp_line
+		(start -4.825 -4.75)
+		(end 4.825 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "162dfa14-077b-4580-adc0-ceb96553b4f2")
+	)
+	(fp_line
+		(start -1.5 -1.75)
+		(end -1.5 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e37f822e-7807-473d-a877-eae0f60837ba")
+	)
+	(fp_line
+		(start -1.5 -1.75)
+		(end 1.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a22d02a6-77fe-46e1-ab88-332f5bb1733e")
+	)
+	(fp_line
+		(start 1.5 -1.75)
+		(end 1.5 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b474483-0659-4e38-869f-e82d453111f7")
+	)
+	(fp_line
+		(start 4.825 -26.55)
+		(end -4.825 -26.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1acc64ec-e061-46f7-bb75-3427240b688c")
+	)
+	(fp_line
+		(start 4.825 -12.4)
+		(end -4.825 -12.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "370c3b2f-44ac-4581-8ceb-098c440b12ae")
+	)
+	(fp_line
+		(start 4.825 -4.75)
+		(end 4.825 -26.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25c4dd87-899c-423d-9f03-4d4ed655d933")
+	)
+	(fp_circle
+		(center 0 -22.325)
+		(end 1 -22.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8c465b04-7fc0-4f08-9762-fca342cac9ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(uuid "c5e43726-5c4a-472a-889a-3b3d6c6eea39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "95c42ba0-65d4-44d2-8323-1c2e9d68c864")
+	)
+	(pad "2" thru_hole oval
+		(at -3.8 -7.8)
+		(size 3.5 7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed193d93-ed45-487f-be64-a601fdd70549")
+	)
+	(pad "2" thru_hole oval
+		(at 3.8 -7.8)
+		(size 3.5 7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7791f0f-2971-40fd-91fd-a9bdc70252fb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/BNC_Win_364A2x95_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

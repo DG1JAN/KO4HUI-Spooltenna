@@ -1,0 +1,99 @@
+(footprint "MOUNTING_HOLE_ZIP_TIE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 5mm by 3mm pad")
+	(tags "mounting hole 5mm 3mm")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "60dc95ca-c481-4e14-96df-e61721388cb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOUNTING_HOLE_ZIP_TIE"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "1ba7045f-83dc-4d94-9d12-21cd50de4757")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76bb070f-64c2-4a12-9625-3c5a59006032")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fda1a03e-239b-407f-a855-e17b211b325a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0112dd58-b175-46be-9b88-ef4b2d32526a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3 -2)
+		(end 3 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "910ae633-b581-4794-8c02-895fb8cf946c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c9906d16-ada8-4e03-b374-e39a25c28aa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole rect
+		(at 0 0)
+		(size 5 3)
+		(drill oval 4 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "656f5f67-62ee-4b17-8ec1-f1a6857d27d9")
+	)
+)
