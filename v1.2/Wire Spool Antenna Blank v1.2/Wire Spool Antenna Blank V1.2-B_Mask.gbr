@@ -1,0 +1,35 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
+%TF.CreationDate,2025-01-31T16:33:36-05:00*%
+%TF.ProjectId,Wire Spool Antenna Blank V1.2,57697265-2053-4706-9f6f-6c20416e7465,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2025-01-31 16:33:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,3.200000*%
+%ADD11C,8.400000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H2*%
+X124800000Y-124800000D03*
+%TD*%
+D11*
+%TO.C,H1*%
+X100000000Y-100000000D03*
+%TD*%
+D10*
+%TO.C,H5*%
+X75200000Y-75200000D03*
+%TD*%
+%TO.C,H3*%
+X75200000Y-124800000D03*
+%TD*%
+%TO.C,H4*%
+X124800000Y-75200000D03*
+%TD*%
+M02*
