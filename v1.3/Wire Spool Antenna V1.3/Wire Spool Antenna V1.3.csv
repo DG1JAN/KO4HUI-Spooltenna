@@ -1,0 +1,4 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"T1";"TOROID_140_AUTO";1;"Transformer_1P_1S";;;
+2;"C1";"C_Disc_D7.5mm_W4.4mm_P5.00mm";1;"100pF, 1kV";;;
+3;"J2";"BNC_MOLEX_73100";1;"Conn_Coaxial";;;
